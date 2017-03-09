@@ -1,0 +1,32 @@
+{
+  "name": "Notification_App",
+  "description": "Apple Notification App Demo",
+  "main": "index.js",
+  "authors": [
+    "Subrahmanyam Poluru"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Notification App",
+    "UI",
+    "WebSockets"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.6",
+    "angular-ui-router": "ui-router#^0.3.2",
+    "angular-route": "^1.5.5",
+    "angular-websocket": "^2.0.0"
+  },
+  "resolutions": {
+    "angular": "^1.5.8"
+  }
+}

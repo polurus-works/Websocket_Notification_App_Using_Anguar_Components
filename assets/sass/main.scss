@@ -1,0 +1,79 @@
+@import "variables.scss";
+@import "header.scss";
+@import "layout.scss";
+
+body{
+	background: $body-bg;
+}
+
+body > .container {
+  padding: 30px 15px 0;
+}
+
+#notifications{
+	border-top: 3px solid #ddd;
+	min-width: 300px;
+	color: #B3A9A9;
+	h4{
+		border-bottom: 1px solid #ccc;
+		margin: 0;
+		padding: 10px 5px;
+		margin-bottom: 10px;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		li{
+			clear: both;
+			.col-xs-6{
+				padding:0 5px 0 0;
+				label{
+					color: #00b7ff;
+					font-size: 20px;
+					text-align: right;
+					font-weight: normal;	
+					display: block;
+				}
+				span{
+					font-size: 12px;
+					text-align: left;	
+					display: block;
+					padding-top: 6px;
+				}
+			}
+			
+		}
+	}
+	a{
+		display: block;
+		text-align: center;
+		background: #fff !important;
+		color: #00b7ff !important;
+		border-bottom: 1px solid #ccc;
+		padding: 5px 5px;
+	}
+}
+
+#notification-updates{
+	color: #B3A9A9;
+	ul{
+		font: 12px/19px arial;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		li{
+			border-bottom: 1px solid #f2f2f2;
+			padding: 5px 10px 5px 10px;
+			clear: both;
+			b{
+				display: block;
+				padding-top: 15px;
+			}
+			a{
+				color: $nav-active !important;
+				background: transparent !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+<div id="notification-updates">
+	<ul>
+		<li>
+			<div>
+				<button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="clearfix">
+				<b>
+				<span ng-if="$ctrl.hero.timeStamp!==$ctrl.today">Today</span></b>
+				<p>{{$ctrl.hero.content}} <a href="#">View Task</a></p>
+			</div>
+		</li>
+	</ul>
+</div>

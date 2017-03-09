@@ -1,0 +1,100 @@
+header .navbar {
+  background: rgba(0, 0, 0, 0.8); }
+
+header .navbar-brand {
+  padding: 10px 4px 4px 4px; }
+
+header .icon-bar {
+  background: #fff; }
+
+header .navbar-nav li .dropdown-menu {
+  padding: 0; }
+
+header #navbar ul li.open a {
+  background: #00b7ff; }
+
+header #navbar ul li a {
+  color: #fff; }
+  header #navbar ul li a.active {
+    background: #00b7ff; }
+  header #navbar ul li a:hover {
+    background: #00b7ff; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 30px; }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #222; }
+
+#content h1 {
+  padding: 20px 0 0 0; }
+
+body {
+  background: #f2f2f2; }
+
+body > .container {
+  padding: 30px 15px 0; }
+
+#notifications {
+  border-top: 3px solid #ddd;
+  min-width: 300px;
+  color: #B3A9A9; }
+  #notifications h4 {
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 10px 5px;
+    margin-bottom: 10px; }
+  #notifications ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    #notifications ul li {
+      clear: both; }
+      #notifications ul li .col-xs-6 {
+        padding: 0 5px 0 0; }
+        #notifications ul li .col-xs-6 label {
+          color: #00b7ff;
+          font-size: 20px;
+          text-align: right;
+          font-weight: normal;
+          display: block; }
+        #notifications ul li .col-xs-6 span {
+          font-size: 12px;
+          text-align: left;
+          display: block;
+          padding-top: 6px; }
+  #notifications a {
+    display: block;
+    text-align: center;
+    background: #fff !important;
+    color: #00b7ff !important;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 5px; }
+
+#notification-updates {
+  color: #B3A9A9; }
+  #notification-updates ul {
+    font: 12px/19px arial;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    #notification-updates ul li {
+      border-bottom: 1px solid #f2f2f2;
+      padding: 5px 10px 5px 10px;
+      clear: both; }
+      #notification-updates ul li b {
+        display: block;
+        padding-top: 15px; }
+      #notification-updates ul li a {
+        color: #00b7ff !important;
+        background: transparent !important; }

@@ -1,0 +1,38 @@
+header{
+	.navbar{
+		background: $header-bg;
+	}
+	.navbar-brand{
+		padding: 10px 4px 4px 4px;
+	}
+	.icon-bar{
+		background: #fff;
+	}
+	.navbar-nav{
+		li{
+			.dropdown-menu{
+				padding: 0;
+			}
+		}
+	}
+	#navbar{
+		ul{
+			li{
+				&.open{
+					a{
+						background: $nav-active;
+					}
+				}
+				a{
+					color: #fff;
+					&.active{
+						background: $nav-active;
+					}
+					&:hover{
+						background: $nav-active;
+					}
+				}
+			}
+		}
+	}
+}

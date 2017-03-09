@@ -19,12 +19,12 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
 })); 
 
-app.get("/services/getToken",function(req,res){
-    res.json("Test Token");
+app.get("/services/notification",function(req,res){
+    res.sendFile(path.normalize(__dirname +"/data/notification.json"));
 });
-app.post("/services/rawDataExtract/checkProductSecurity",function(req,res){
+app.post("/services/notification",function(req,res){
     //var searchQuery = req.body.searchQuery;
-    res.sendFile(path.normalize(__dirname +"/data/securityCheck101.json"));
+    res.sendFile(path.normalize(__dirname +"/data/notification.json"));
 });
 
 

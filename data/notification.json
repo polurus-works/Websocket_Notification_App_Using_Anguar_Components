@@ -1,0 +1,23 @@
+[
+{
+    taskType: 1,
+    content: 'Oliver Quiver has assigned the interview. Book Travel task to you',
+    timeStamp: 'Thursday, March 9, 2017'
+  },{
+    taskType: 2,
+    content: 'Buck Owens has assigned the Mobility. Submit task to you',
+    timeStamp: 'Thursday, March 9, 2017'
+  },{
+    taskType: 1,
+    content: 'Hans Zolo has assigned the Mobility. Complete task to you',
+    timeStamp: 'Thursday, March 9, 2017'
+  },{
+    taskType: 1,
+    content: 'Steve Jobs has assigned the Mobility. Complete task to you',
+    timeStamp: 'Thursday, March 9, 2017'
+  },{
+    taskType: 1,
+    content: 'Tim cook has assigned the Mobility. Complete task to you',
+    timeStamp: 'Thursday, March 9, 2017'
+  }
+]

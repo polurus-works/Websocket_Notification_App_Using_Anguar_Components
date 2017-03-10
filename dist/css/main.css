@@ -45,6 +45,9 @@ body {
 body > .container {
   padding: 30px 15px 0; }
 
+#ns-list {
+  background: #fff; }
+
 #notifications {
   border-top: 3px solid #ddd;
   min-width: 300px;

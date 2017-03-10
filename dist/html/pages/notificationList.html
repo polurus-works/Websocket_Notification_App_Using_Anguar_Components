@@ -1,20 +1,22 @@
-<div id="notifications">
-	<h4>{{ $ctrl.today | date : "EEEE, MMMM d, y" }}</h4>
-	<ul>
-		<li>
-			<div class="col-xs-6"><label>{{$ctrl.getCount(1)}}</label></div>
-			<div class="col-xs-6"><span>Assigned Task</span></div>
-		</li>
-		<li>
-			<div class="col-xs-6"><label>{{$ctrl.getCount(2)}}</label></div>
-			<div class="col-xs-6"><span>Reminders</span></div>
-		</li>
-		<li>
-			<div class="col-xs-6"><label>{{$ctrl.list.length}}</label></div>
-			<div class="col-xs-6"><span>Notifications</span></div>
-		</li>
-	</ul>
-	<div class="clearfix"></div>
-	<a href="#" class="text-center">My Workspace &gt;</a>
+<div id="ns-list">
+	<div id="notifications">
+		<h4>{{ $ctrl.today | date : "EEEE, MMMM d, y" }}</h4>
+		<ul>
+			<li>
+				<div class="col-xs-6"><label>{{$ctrl.getCount(1)}}</label></div>
+				<div class="col-xs-6"><span>Assigned Task</span></div>
+			</li>
+			<li>
+				<div class="col-xs-6"><label>{{$ctrl.getCount(2)}}</label></div>
+				<div class="col-xs-6"><span>Reminders</span></div>
+			</li>
+			<li>
+				<div class="col-xs-6"><label>{{$ctrl.list.length}}</label></div>
+				<div class="col-xs-6"><span>Notifications</span></div>
+			</li>
+		</ul>
+		<div class="clearfix"></div>
+		<a href="#" class="text-center">My Workspace &gt;</a>
+	</div>
+	<notification-detail ng-repeat="hero in $ctrl.list" hero="hero"></notification-detail>
 </div>
-<notification-detail ng-repeat="hero in $ctrl.list" hero="hero"></notification-detail>

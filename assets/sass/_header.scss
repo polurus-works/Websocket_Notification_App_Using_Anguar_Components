@@ -6,7 +6,7 @@ header{
 		padding: 10px 4px 4px 4px;
 	}
 	.icon-bar{
-		background: #fff;
+		background: $base-white;
 	}
 	.navbar-nav{
 		li{
@@ -24,7 +24,7 @@ header{
 					}
 				}
 				a{
-					color: #fff;
+					color: $base-white;
 					&.active{
 						background: $nav-active;
 					}

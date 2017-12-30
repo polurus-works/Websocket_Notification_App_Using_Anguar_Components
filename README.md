@@ -7,4 +7,4 @@ Installation Step:
 <li>run gulp default (* Install gulp_cli) <a href="http://gulpjs.com/" target="_blank">Gulp</a></li>
 </ol>
 
- <a href="http://subrahmanyampoluru.com/notificationApp" target="_blank">View Demo</a>
+ <a href="http://subrahmanyampoluru.com/portfolio/websocket-notification-app" target="_blank">View Demo</a>
